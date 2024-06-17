@@ -1,0 +1,33 @@
+{
+    "name": "kos-syntax",
+    "displayName": "kOS Syntax Highlighting | Kerbal Space Program",
+    "description": "Syntax highlighting for Kerbal OS (kOS) .ks scripts in VS Code",
+    "version": "0.0.1",
+    "publisher": "Bradyns",
+    "license": "MIT",
+    "engines": {
+      "vscode": "^1.0.0"
+    },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/Bradyns/EditorTools"
+    },
+    "contributes": {
+      "languages": [
+        {
+          "id": "kos",
+          "aliases": ["kOS", "kos"],
+          "extensions": [".ks"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "kos",
+          "scopeName": "source.kos",
+          "path": "./syntaxes/kos.tmLanguage.json"
+        }
+      ]
+    },
+    "dependencies": {}
+  }
