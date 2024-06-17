@@ -2,7 +2,7 @@
     "name": "kos-syntax",
     "displayName": "kOS Syntax Highlighting | Kerbal Space Program",
     "description": "Syntax highlighting for Kerbal OS (kOS) .ks scripts in VS Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Bradyns",
     "license": "MIT",
     "engines": {
