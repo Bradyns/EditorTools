@@ -64,6 +64,19 @@ If you want to customise the colours for a specific kOS syntax scope, here's how
     }
     ```
 
+    * 4.1 **Add More Than One**
+
+        * You can add multiple customisations by adding more objects to the `textMateRules` array:
+
+          ```json
+          {
+              "scope": "variable.parameter.kos", // Replace with the scope you want to customise
+              "settings": {
+              "foreground": "#FF0000"  // Replace with your desired colour
+              }
+          }, //<-- Remove this comma if it's the last item in the list
+          ```
+
 5. **Replace the `scope` and `foreground` values**:
    * Use the scope name you copied from the [`kos.tmLanguage.json`](./syntaxes/kos.tmLanguage.json) file.
    * Replace the `foreground` value with your desired colour.
